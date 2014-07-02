@@ -114,7 +114,7 @@ def aerodynamic_forces_and_power(opt):
     Pp = opt.aso.aero2.Fblade.Pp
 
     plt.plot(yE, thrust, label='Thrust (N/M)')
-    plt.plot(yE, drag/(10**-1), label='Drag (10^{-1} N/M)')
+    plt.plot(yE, drag/(10**-1), label='Drag ($10^{-1}$ N/M)')
     plt.plot(yE, torque, label='Torque (Nm/m)')
     plt.plot(yE, moment, color='green', label='Moment (Nm/m)')
     plt.plot(yE, power, color='black', label='Power (W/m)')
